@@ -12,3 +12,7 @@ The home page:
 The post page:
 
 ![The post page](https://raw.githubusercontent.com/johnroper100/blended-blog/master/preview2.png)
+
+A post page with image:
+
+![A post page with image](https://raw.githubusercontent.com/johnroper100/blended-blog/master/preview3.png)
