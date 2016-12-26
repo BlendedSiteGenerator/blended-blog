@@ -3,11 +3,17 @@
 		<div class="card">
             <img class="card-img-top img-fluid" src="assets/img/{page_filename}.jpg" onerror="this.style.display='none'">
 			<div class="card-block">
-                
 				<h4 class="card-title">{page_name}</h4>
 				<p><small>{page_time}</small></p>
 				<hr>
-				<p class="card-text">{page_content}</p>
+				<div class="card-text">{page_content}</div>                                
+			</div>
+		</div>
+        <div class="card">
+			<div class="card-block">
+				<div class="card-text">
+                    {comment_box}
+                </div>                                
 			</div>
 		</div>
         <a href="index.html" class="btn btn-primary" style="margin-bottom: 25px;">Back to Home</a>
