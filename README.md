@@ -18,3 +18,9 @@ The post page:
 A post page with image:
 
 ![A post page with image](https://raw.githubusercontent.com/johnroper100/blended-blog/master/preview3.png)
+
+## Plugins Needed
+
+You need the [Blended HTML Comment Box](https://github.com/johnroper100/blended_html_comment_box) plugin.
+
+Install it by running `pip install blended_html_comment_box`
