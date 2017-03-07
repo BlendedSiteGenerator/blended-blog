@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-md-12">
 		<div class="card">
-            <img class="card-img-top img-fluid" src="assets/img/{page_filename}.jpg" onerror="this.style.display='none'">
+            <img class="card-img-top img-fluid" src="{relative_root}assets/img/{page_filename}.jpg" onerror="this.style.display='none'">
 			<div class="card-block">
 				<h4 class="card-title">{page_name}</h4>
 				<p><small>{page_time}</small></p>
@@ -16,6 +16,6 @@
                 </div>                                
 			</div>
 		</div>
-        <a href="index.html" class="btn btn-primary" style="margin-bottom: 25px;">Back to Home</a>
+        <a href="{relative_root}index.html" class="btn btn-primary" style="margin-bottom: 25px;">Back to Home</a>
 	</div>
 </div>
