@@ -11,7 +11,12 @@ You need the [Blended Google Fonts](https://github.com/BlendedSiteGenerator/blen
 
 Install it by running `pip install blended_google_fonts`
 
-Add `google_fonts = [["Open Sans", "300"], ["Roboto", "300"]]` to your `config.py` file.
+Add
+
+```python
+google_fonts = [["Open Sans", "300"], ["Roboto", "300"]]
+```
+to your `config.py` file.
 
 ### Twitter Cards
 
