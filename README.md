@@ -1,26 +1,32 @@
-# blended-blog
+# Blended Blog
 This is a simple blog template for Blended.
 
 To use, download all of these files into the 'templates' folder of your Blended website.
 
-The *About Me* section is based off of whatever you have {website_description_long} set to in your config.py file.
-
-If you want to add a post image, it must be a JPG (.jpg) and is must have the same name as the post file ex. `getting-started.jpg`. Also, it must be placed in the `templates/assets/img/` folder.
-
-The home page:
-
-![The home page](https://raw.githubusercontent.com/johnroper100/blended-blog/master/preview1.png)
-
-The post page:
-
-![The post page](https://raw.githubusercontent.com/johnroper100/blended-blog/master/preview2.png)
-
-A post page with image:
-
-![A post page with image](https://raw.githubusercontent.com/johnroper100/blended-blog/master/preview3.png)
-
 ## Plugins Needed
 
-You need the [Blended HTML Comment Box](https://github.com/johnroper100/blended_html_comment_box) plugin.
+### Google Fonts
 
-Install it by running `pip install blended_html_comment_box`
+You need the [Blended Google Fonts](https://github.com/BlendedSiteGenerator/blended_google_fonts) plugin.
+
+Install it by running `pip install blended_google_fonts`
+
+Add `google_fonts = [["Open Sans", "300"], ["Roboto", "300"]]` to your `config.py` file.
+
+### Twitter Cards
+
+You need the [Blended Twitter Cards](https://github.com/BlendedSiteGenerator/blended_twitter_cards) plugin.
+
+Install it by running `pip install blended_twitter_cards`
+
+Add
+
+```python
+twitter_card = "summary"
+twitter_site = "" # Your website URL
+twitter_title = "{website_name} | {page_name}"
+twitter_description = "{website_description}"
+twitter_image = "" # Your website icon
+```
+
+to your `config.py`

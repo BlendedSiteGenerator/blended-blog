@@ -2,17 +2,34 @@
 <html lang="{website_language}">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>{website_name} - {website_description} | {page_name}</title>
+    <!-- Twitter Cards -->
+    {twitter_cards}
 
-	<link rel="stylesheet" href="{relative_root}assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="{relative_root}assets/css/style.css">
+    <title>{website_name} - {website_description} | {page_folder} {page_name}</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{relative_root}assets/css/bootstrap.min.css">
+    {google_fonts}
+    <link rel="stylesheet" href="{relative_root}assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{relative_root}assets/css/main.css">
 </head>
 
 <body>
-	{nav1}
-
-	<div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 header">
+        <h1><a href="{relative_root}index.html">{website_name}</a></h1>
+        <h3>{website_description}</h3>
+        <p>
+          <a href="mailto:test@email.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+          <a href="https://wwww.twitter.com"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.github.com"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        </p>
+      </div>
+    </div>
+    <div class="row">

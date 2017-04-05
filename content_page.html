@@ -1,14 +1,8 @@
-<div class="row">
-	<div class="col-md-12">
-		<div class="card">
-			<img class="card-img-top img-fluid" src="{relative_root}assets/img/{page_filename}.jpg" onerror="this.style.display='none'">
-			<div class="card-block">
-				<h4 class="card-title">{page_name}</h4>
-				<p><small>{page_time}</small></p>
-				<hr>
-				<div class="card-text">{page_content}</div>
-			</div>
-		</div>
-		<a href="{relative_root}index.html" class="btn btn-primary" style="margin-bottom: 25px;">Back to Home</a>
-	</div>
+<div class="col-md-12 post-content">
+  <h1 class="post-title">{page_name}</a></h1>
+  <p>
+    Written on {build_date}
+  </p>
+  <hr />
+  <p>{page_content}</p>
 </div>
